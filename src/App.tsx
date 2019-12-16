@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Button, Typography } from "@material-ui/core";
+import { Liability } from "./Liability";
 
 interface DecisionNode {
   question: string;
@@ -68,7 +69,9 @@ const Question: React.FC = () => {
 
   return (
     <Box>
-      <Typography>{currentState.question}?</Typography>
+      <Typography variant="body1" color="textPrimary">
+        {currentState.question}?
+      </Typography>
       <Box
         display="flex"
         flexDirection="row"
@@ -95,6 +98,8 @@ const App: React.FC = () => {
       }}
     >
       <Question />
+      <Box height={100} />
+      <Liability />
     </Box>
   );
 };
