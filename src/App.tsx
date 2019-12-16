@@ -63,7 +63,9 @@ const Question: React.FC = () => {
 
   if (answer) {
     return (
-      <Typography>I-80 is {answer === "no" ? "CLOSED" : "OPEN"}</Typography>
+      <Typography variant="body1" color="textPrimary" align="center">
+        I-80 is probably {answer === "no" ? "CLOSED" : "OPEN"}
+      </Typography>
     );
   }
 

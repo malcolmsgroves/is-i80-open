@@ -18,16 +18,17 @@ export const Liability = () => {
         Representatives of the Company will also decline requests for comments
         on the ongoing WY Supreme Court case Town of Rock Springs Highway
         Department vs Taco Grill LLC, which is an egregious misuse of tax-payer
-        dollars, and a laughably weak accusation against an upstanding
+        resources, and a laughably weak accusation against an upstanding
         not-for-profit NGO concerning itself with the well-being of its
         shareholders and the management of the Taco Grill Estate &reg;.
       </Typography>
       <Typography align="justify" variant="body2" color="textSecondary">
-        This site is for non-commercial use only. Users seeking to profit off of
-        the algorithm contained herein will be prosecuted to the fullest extent
-        of the law. Law abiding citizens seeking to use our Artifical
-        Intelligence API backed with state-of-the-art Machine Learning
-        algorithms can contact the company for pricing information.
+        This site is for non-commercial use only. Non-paying commercial users
+        seeking to profit off of the algorithm contained herein will be
+        prosecuted to the fullest extent of the law. Law abiding citizens
+        seeking to use our Artifical Intelligence API backed with
+        state-of-the-art Machine Learning algorithms can contact the company for
+        pricing information.
       </Typography>
     </>
   );
