@@ -3,7 +3,7 @@ import { Typography } from "@material-ui/core";
 
 export const Liability = () => {
   return (
-    <Typography variant="body2" color="textSecondary">
+    <Typography align="justify" variant="body2" color="textSecondary">
       Taco Grille LLC &copy; (referred to as the Company) does not promise that
       the information provided on this webpage is accurate or up to date. The
       Company is not liable for user attempts to drive on I-80 in inclement

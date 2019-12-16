@@ -69,14 +69,14 @@ const Question: React.FC = () => {
 
   return (
     <Box>
-      <Typography variant="body1" color="textPrimary">
+      <Typography variant="body1" color="textPrimary" align="center">
         {currentState.question}?
       </Typography>
       <Box
         display="flex"
         flexDirection="row"
-        justifyContent="space-between"
-        style={{ width: "50%", paddingTop: 20 }}
+        justifyContent="space-around"
+        style={{ paddingTop: 20 }}
       >
         <Button variant="contained" onClick={handleYes}>
           YES
